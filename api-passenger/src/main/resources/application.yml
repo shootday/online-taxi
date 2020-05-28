@@ -1,0 +1,10 @@
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:7900/eureka/  #单节点开
+      #defaultZone: http://server1:7900/eureka/,http://server2:7901/eureka/,http://server3:7902/eureka/
+spring:
+  application:
+    name: api-passenger
